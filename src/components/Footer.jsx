@@ -1,6 +1,5 @@
 import React from "react";
 import "./Footer.css";
-import { BsFacebook } from "react-icons/bs";
 
 const Footer = () => {
     return (
@@ -9,8 +8,7 @@ const Footer = () => {
                 <div className="footer-section social-icons">
                     <img src="/assets/instagram.svg" alt="Instagram" />
                     <img src="/assets/youtube.svg" alt="YouTube" />
-                    <img src= {BsFacebook} alt="Facebook" className="facebook"/>
-                    <BsFacebook />
+                    <img src= "/assets/youtube.svg" alt="Facebook" className="facebook"/>
                 </div>
 
                 <div className="footer-section">
