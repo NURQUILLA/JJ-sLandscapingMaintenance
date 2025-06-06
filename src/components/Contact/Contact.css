@@ -1,0 +1,88 @@
+
+.quote-container {
+    width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding-top: 80px;
+    box-sizing: border-box;
+}
+
+h2 {
+    font-size: 2.5rem;
+    color: #2D6A4F;
+    text-align: center;
+}
+
+.quote-form {
+    background: #f8f8f8;
+    padding: 30px;
+    border-radius: 10px;
+    width: 90%;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.quote-form label {
+    font-weight: bold;
+    color:#333333;
+}
+
+.quote-form input,
+.quote-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    color:#E3E6D3;
+}
+
+.quote-form textarea {
+    height: 100px;
+    resize: none;
+}
+
+.quote-form button {
+    background: #2D6A4F;
+    color: #E3E6D3;
+    border: none;
+    padding: 12px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.quote-form button:hover {
+    background: #444;
+}
+
+.quote-footer {
+    margin-top: 30px;
+    background: #E3E6D3;
+    padding: 20px;
+    width: 100%;
+    text-align: center;
+}
+
+.quote-footer h4 {
+    font-weight: bold;
+    color: #333333;
+}
+
+.quote-footer p {
+    font-size: 18px;
+    margin: 5px 0;
+    color: #333333;
+}
+
+
+@media (max-width: 768px) {
+    .quote-form {
+        width: 95%;
+    }
+}

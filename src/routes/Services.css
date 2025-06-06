@@ -1,0 +1,142 @@
+.service-container {
+    width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 150px;
+    padding-bottom: 100px;
+    box-sizing: border-box;
+    flex: 1;
+    justify-content: flex-start;
+}
+h2 {
+    font-size: 4rem;
+    color: #2D6A4F;
+    text-align: center;
+}
+
+.services-subtitle {
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-align: center;
+    margin: 20px 0;
+}
+
+
+.services-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.service-card {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+}
+
+.service-card:hover {
+    transform: scale(1.05);
+}
+
+.service-img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    background: #e0e0e0;
+}
+
+h3 {
+    color: #2D6A4F;
+    margin: 15px 0 10px;
+}
+
+p {
+    font-size: 14px;
+    color: #333;
+}
+
+.gallery-slick .slick-prev:before,
+.gallery-slick .slick-next:before {
+    color: #2e8b57;
+    font-size: 20px;
+}
+
+.gallery-slick .slick-dots li button:before {
+    color: black;
+}
+
+.gallery-slick .slick-dots li.slick-active button:before {
+    color: #1a5d38;
+}
+
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.75);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+}
+
+.modal-content {
+    background: white;
+    padding: 2rem;
+    border-radius: 8px;
+    max-width: 800px;
+    width: 90%;
+    max-height: 80vh;
+    overflow-y: auto;
+    position: relative;
+}
+
+.close-btn {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-size: 1.5rem;
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: #2D6A4F;
+}
+
+.gallery {
+    display: flex;
+    gap: 10px;
+    overflow-x: auto;
+    margin-top: 1rem;
+}
+.gallery-swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.gallery-img {
+    width: 100%;
+    height: auto;
+    border-radius: 6px;
+    max-height: 400px;
+    object-fit: cover;
+}
+@media (max-width: 768px) {
+    .services-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 500px) {
+    .services-grid {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}

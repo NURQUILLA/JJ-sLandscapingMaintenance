@@ -1,0 +1,19 @@
+.review-container {
+    width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 150px;
+    box-sizing: border-box;
+    flex: 1;
+    justify-content: flex-start;
+}
+.review-widget{
+    padding-top: 10px;
+}
+h2 {
+    font-size: 4rem;
+    color: #2D6A4F;
+    text-align: center;
+}
