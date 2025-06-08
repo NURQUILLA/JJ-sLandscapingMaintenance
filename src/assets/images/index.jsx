@@ -11,4 +11,6 @@ export { default as main} from './Main.jpg';
 export { default as family} from './our family.jpg'
 export {default as transparentLogo} from './alt_logo.png'
 export {default as fb} from './facebook.jpg';
-
+export {default as facebook} from './2023_Facebook_icon.svg.webp'
+export {default as instagram} from './Instagram.svg.png'
+export {default as google} from './Google__G__logo.svg.png'
