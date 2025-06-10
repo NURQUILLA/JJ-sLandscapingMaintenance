@@ -5,6 +5,7 @@ import { Link } from "react-router-dom";
 
 import {facebook, instagram, google} from "../assets/images/index.jsx";
 
+
 const Footer = () => {
     return (
         <footer className="footer">

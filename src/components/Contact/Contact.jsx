@@ -25,7 +25,7 @@ export const Contact = () => {
         if (res.success) {
             Swal.fire({
                 title: "Success",
-                text: "Youre Message Was Sent Successfully",
+                text: "Your Message Was Sent Successfully",
                 icon: "success",
               }).then(() => {
                 window.location.reload();
@@ -47,6 +47,9 @@ export const Contact = () => {
 
               <label>Email</label>
               <input type="email" className="field" placeholder="Enter Your Email" name="email" required/>
+
+              <label>Contact</label>
+              <input type="text" className="field" placeholder="Enter Your Phone Number" name="contact" required/>
 
               <label>Message</label>
               <textarea name="message" placeholder="Enter Your Message" required></textarea>

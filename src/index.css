@@ -198,12 +198,17 @@ button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
-
+.mainTitle{
+  position: relative;
+  display: inline-block;
+  text-align: center;
+  z-index: 1;
+}
 .Background-Logo{
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -60%);
+  transform: translate(-50%,+20%);
   height: 500px;
   width: 525px;
   z-index: 0;
