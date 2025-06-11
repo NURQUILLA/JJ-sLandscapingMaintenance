@@ -6,7 +6,7 @@ function App() {
    
 <div>
 <Header></Header>
-   <div className="app-container">
+   <div className="title-container">
        <div className="mainTitle">
        <img src={transparentLogo} alt={"BackgroundLogo"} className="Background-Logo"/>
        </div>

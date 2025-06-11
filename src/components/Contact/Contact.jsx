@@ -58,7 +58,7 @@ export const Contact = () => {
           </form>
           <div className="quote-footer">
               <h4>Contact Us</h4>
-              <a href="tel:number" >(678) 982-3112</a>
+              <p>678-123-1234</p>
           </div>
       </section>
   )
