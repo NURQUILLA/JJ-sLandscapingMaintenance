@@ -11,7 +11,7 @@ export const Header = () => {
         const currentPosition = window.scrollY;
         setScrollPosition(currentPosition);
         
-        if(currentPosition > 100 && scrollPosition <= currentPosition){
+        if(currentPosition > 100 && scrollPosition <= currentPosition + 100){
             setVisible(false);
         }else{
             setVisible(true);
