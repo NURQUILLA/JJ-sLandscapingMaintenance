@@ -12,11 +12,11 @@ function App() {
        </div>
     </div>
 
-   <div class = "wide-image">
-       <img src ={experienced} alt={"Wide Image Experienced Team"}className={"wide-image"}/>
+   <div className= "wide-image">
+       <img src ={experienced} alt={"Wide Image Experienced Team"} className={"wide-image"}/>
    </div>
 
-    <div class="sub-section">
+    <div className="sub-section">
         <h2>About Us</h2>
         <p>What We Pride Ourselves on!</p>
         <div className="card-container">
@@ -40,7 +40,7 @@ function App() {
         </div>
     </div>
 
-    <div class="sub-section">
+    <div className="sub-section">
         <h2>Our Family</h2>
 
         <div className="family-content">

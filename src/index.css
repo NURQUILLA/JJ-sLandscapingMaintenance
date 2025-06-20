@@ -137,7 +137,7 @@ header{
 .wide-image {
   width: 100%;
   height: 640px;
-  background-color: #646cff;
+  background-color: #E3E6D3;
   margin-bottom: 40px;
 }
 .family-content {
@@ -225,7 +225,7 @@ button:focus-visible {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%,+60%);
+    transform: translate(-50%,+30%);
     height: 250px;
     width: 275px;
     z-index: 0;
@@ -234,8 +234,8 @@ button:focus-visible {
     width: 100%;
     height: 300px;
     background-color: #E3E6D3;
-    margin-bottom: 1px;
-    transform: translate(0,-7%);
+    margin-bottom: 0px;
+    transform: translate(0,-20%);
   }
   .card-container {
     flex-direction: column;
