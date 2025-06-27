@@ -60,7 +60,7 @@ const Footer = () => {
                         <li>Lawn Care</li>
                         <li>Sod Work</li>
                         <li>Handyman Work</li>
-                        <li>Tractor Work</li>
+                        <li>Mulch and PineStraw</li>
                         <li>Preasure Washing</li>
                         <li>Misc</li>
                     </ul>
